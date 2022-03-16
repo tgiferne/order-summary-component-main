@@ -54,20 +54,20 @@ button {
     background-color: white;
     margin: 20px;
     padding-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 3px 3px 3px hsl(228, 45%, 44%, 0.15);
 }
 
 .card img.hero {
     width: 100%;
-    border-radius: 5px 5px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
 .card .pricing {
     margin: 30px auto;
     padding: 10px;
     background-color: var(--very-pale-blue);
-    width: 90%;
+    width: 70%;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -93,11 +93,11 @@ button {
 
 .card h1 {
     color: var(--dark-blue);
-    margin: 10px 0;
+    margin: 2rem;
 }
 
 .card p.desc {
-    padding: 0 30px;
+    padding: 1rem 3rem;
 }
 
 .btn {
@@ -121,7 +121,8 @@ button {
 .btn-primary {
     background-color: var(--bright-blue);
     color: white;
-    padding: 10px;
+    width: 70%;
+    padding: 1rem;
     margin-bottom: 10px;
 }
 
